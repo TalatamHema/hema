@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	float x,n,r;
+	printf("enter value of x and n\n");
+	scanf("%f %f",&x,&n);
+	r=pow(x,n);
+	printf("x power n=%f",r);
+}
